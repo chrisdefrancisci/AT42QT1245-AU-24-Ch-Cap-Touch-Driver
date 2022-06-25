@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/Chris/Documents/Projects/Synth/Evaluation/AT42QT1245-AU 24 Ch Cap Touch Driver/Design/Capacitive_Touch_Breakout_Board_AT42QT1245-AU.sch</source>
+    <date>Monday, January 31, 2022 at 09:08:24 PM</date>
+    <tool>Eeschema (5.1.2-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Capacitive_Touch_Breakout_Board_AT42QT1245-AU.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U101">
+      <value>AT42QT1245-AU</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9632-AT42-QT1245_Datasheet.pdf</datasheet>
+      <libsource lib="Sensor_Touch" part="AT42QT1245-AU" description="24-Key Capacitive Touch Sensor IC, SPI, 32-TQFP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619363F9</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>1Meg</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C26083</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61949230</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>1Meg</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C26083</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61949868</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>1Meg</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C26083</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61949A08</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C1538</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6194A64E</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C1538</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6194B917</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C1538</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6194C352</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61952BC4</tstamp>
+    </comp>
+    <comp ref="SW101">
+      <value>Slider_7pos</value>
+      <footprint>Button_Slider_Capacitive:Slider_Flooded_H12mm_W84mm_7pos</footprint>
+      <libsource lib="Button_Slider_Capacitive" part="Slider_7pos" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AD1AAB</tstamp>
+    </comp>
+    <comp ref="SW102">
+      <value>Touchbutton</value>
+      <footprint>Button_Slider_Capacitive:Button_Interleaved_D12mm_P0.5mm</footprint>
+      <libsource lib="Button_Slider_Capacitive" part="Touchbutton" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AD4F28</tstamp>
+    </comp>
+    <comp ref="SW105">
+      <value>Wheel_3pos</value>
+      <footprint>Button_Slider_Capacitive:Wheel_Flooded_R13mm</footprint>
+      <libsource lib="Button_Slider_Capacitive" part="Wheel_3pos" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AD569C</tstamp>
+    </comp>
+    <comp ref="SW107">
+      <value>Wheel_Interleaved_8pos</value>
+      <footprint>Button_Slider_Capacitive:Wheel_Interleaved_R17mm</footprint>
+      <libsource lib="Button_Slider_Capacitive" part="Wheel_Interleaved_8pos" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AD6472</tstamp>
+    </comp>
+    <comp ref="SW103">
+      <value>Slider_7pos</value>
+      <footprint>Button_Slider_Capacitive:Slider_Interleaved_H12mm_W72mm_7pos</footprint>
+      <libsource lib="Button_Slider_Capacitive" part="Slider_7pos" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE8413</tstamp>
+    </comp>
+    <comp ref="SW104">
+      <value>Touchbutton</value>
+      <footprint>Button_Slider_Capacitive:Button_Interleaved_D12mm_P0.5mm</footprint>
+      <libsource lib="Button_Slider_Capacitive" part="Touchbutton" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF5B74</tstamp>
+    </comp>
+    <comp ref="SW106">
+      <value>Touchbutton</value>
+      <footprint>Button_Slider_Capacitive:Button_Flooded_D12</footprint>
+      <libsource lib="Button_Slider_Capacitive" part="Touchbutton" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AFE1C1</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B3AF11</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B3BC7B</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B3FA8A</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B3FA90</tstamp>
+    </comp>
+    <comp ref="R119">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B42A6A</tstamp>
+    </comp>
+    <comp ref="R120">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B42A70</tstamp>
+    </comp>
+    <comp ref="R121">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B42A76</tstamp>
+    </comp>
+    <comp ref="R122">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C22859</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B42A7C</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B816FD</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B8AAA7</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B8E612</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B8E618</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B926AF</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B926B5</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B962EC</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B962F2</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BE82E2</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BED8DB</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BED8E1</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x10</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C5F197</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D313E7</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D444A1</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D4CB58</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>UTC78L05_SOT89</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809200029_UTC-Unisonic-Tech-78L05G-AB3-R_C71136.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C71136</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L78L05_SOT89" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F5C821</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>0.33u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C1740</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F61A05</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F62112</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Button_Slider_Capacitive" part="Slider_7pos">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Slider_7pos</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X0" type="input"/>
+        <pin num="2" name="X1" type="input"/>
+        <pin num="3" name="X2" type="input"/>
+        <pin num="4" name="X3" type="input"/>
+        <pin num="5" name="X4" type="input"/>
+        <pin num="6" name="X5" type="input"/>
+        <pin num="7" name="X6" type="input"/>
+        <pin num="8" name="Y" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Button_Slider_Capacitive" part="Touchbutton">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Touchbutton</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X" type="input"/>
+        <pin num="2" name="Y" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Button_Slider_Capacitive" part="Wheel_3pos">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Wheel_3pos</field>
+        <field name="Footprint">Button_Slider_Capacitive:Wheel_Flooded_R13mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X0" type="input"/>
+        <pin num="2" name="X1" type="input"/>
+        <pin num="3" name="X2" type="input"/>
+        <pin num="4" name="Y" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Button_Slider_Capacitive" part="Wheel_Interleaved_8pos">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Wheel_Interleaved_8pos</field>
+        <field name="Footprint">Button_Slider_Capacitive:Wheel_Interleaved_R17mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X0" type="input"/>
+        <pin num="2" name="X1" type="input"/>
+        <pin num="3" name="X2" type="input"/>
+        <pin num="4" name="X3" type="input"/>
+        <pin num="5" name="X4" type="input"/>
+        <pin num="6" name="X5" type="input"/>
+        <pin num="7" name="X6" type="input"/>
+        <pin num="8" name="X7" type="input"/>
+        <pin num="9" name="Y" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MC78L05_SOT89">
+      <aliases>
+        <alias>MC78L08_SOT89</alias>
+        <alias>MC78L12_SOT89</alias>
+        <alias>L78L33_SOT89</alias>
+        <alias>L78L05_SOT89</alias>
+        <alias>L78L06_SOT89</alias>
+        <alias>L78L08_SOT89</alias>
+        <alias>L78L09_SOT89</alias>
+        <alias>L78L10_SOT89</alias>
+        <alias>L78L12_SOT89</alias>
+        <alias>L78L15_SOT89</alias>
+        <alias>L78L18_SOT89</alias>
+        <alias>L78L24_SOT89</alias>
+        <alias>MCP1804x-1802xMB</alias>
+        <alias>MCP1804x-2502xMB</alias>
+        <alias>MCP1804x-3002xMB</alias>
+        <alias>MCP1804x-3302xMB</alias>
+        <alias>MCP1804x-5002xMB</alias>
+        <alias>MCP1804x-A002xMB</alias>
+        <alias>MCP1804x-C002xMB</alias>
+      </aliases>
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC78L05_SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Touch" part="AT42QT1245-AU">
+      <description>24-Key Capacitive Touch Sensor IC, SPI, 32-TQFP</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9632-AT42-QT1245_Datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT42QT1245-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X3" type="output"/>
+        <pin num="2" name="X4" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="X5" type="output"/>
+        <pin num="8" name="X6" type="output"/>
+        <pin num="9" name="X7" type="output"/>
+        <pin num="10" name="VREF" type="input"/>
+        <pin num="11" name="S_SYNC\~CHANGE" type="input"/>
+        <pin num="12" name="M_SYNC" type="input"/>
+        <pin num="13" name="~DRDY" type="output"/>
+        <pin num="14" name="~SS" type="input"/>
+        <pin num="15" name="MOSI" type="input"/>
+        <pin num="16" name="MISO" type="output"/>
+        <pin num="17" name="SCK" type="input"/>
+        <pin num="18" name="VDD" type="power_in"/>
+        <pin num="19" name="NC" type="NotConnected"/>
+        <pin num="20" name="VDD" type="power_in"/>
+        <pin num="21" name="VSS" type="power_in"/>
+        <pin num="22" name="NC" type="NotConnected"/>
+        <pin num="23" name="Y0B" type="input"/>
+        <pin num="24" name="Y1B" type="input"/>
+        <pin num="25" name="Y2B" type="input"/>
+        <pin num="26" name="Y0A" type="input"/>
+        <pin num="27" name="Y1A" type="input"/>
+        <pin num="28" name="Y2A" type="input"/>
+        <pin num="29" name="RST" type="input"/>
+        <pin num="30" name="SMP\X0" type="output"/>
+        <pin num="31" name="X1" type="output"/>
+        <pin num="32" name="X2" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Button_Slider_Capacitive">
+      <uri>/Users/Chris/Documents/KiCad/Symbol Libraries/Button_Slider_Capacitive.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Sensor_Touch">
+      <uri>/Library/Application Support/kicad/library/Sensor_Touch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/S_SYNC">
+      <node ref="U101" pin="11"/>
+      <node ref="J101" pin="9"/>
+    </net>
+    <net code="2" name="/M_SYNC">
+      <node ref="J101" pin="10"/>
+      <node ref="U101" pin="12"/>
+    </net>
+    <net code="3" name="/~DRDY">
+      <node ref="U101" pin="13"/>
+      <node ref="J101" pin="4"/>
+    </net>
+    <net code="4" name="/~SS">
+      <node ref="U101" pin="14"/>
+      <node ref="J101" pin="5"/>
+    </net>
+    <net code="5" name="/MOSI">
+      <node ref="J101" pin="6"/>
+      <node ref="U101" pin="15"/>
+    </net>
+    <net code="6" name="/MISO">
+      <node ref="J101" pin="7"/>
+      <node ref="U101" pin="16"/>
+    </net>
+    <net code="7" name="/SCK">
+      <node ref="J101" pin="8"/>
+      <node ref="U101" pin="17"/>
+    </net>
+    <net code="8" name="Net-(U101-Pad19)">
+      <node ref="U101" pin="19"/>
+    </net>
+    <net code="9" name="Net-(U101-Pad22)">
+      <node ref="U101" pin="22"/>
+    </net>
+    <net code="10" name="/RST">
+      <node ref="U101" pin="29"/>
+      <node ref="J101" pin="3"/>
+    </net>
+    <net code="11" name="+5V">
+      <node ref="C105" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="U102" pin="1"/>
+      <node ref="C109" pin="1"/>
+      <node ref="U101" pin="6"/>
+      <node ref="U101" pin="4"/>
+      <node ref="U101" pin="20"/>
+      <node ref="U101" pin="18"/>
+      <node ref="C101" pin="1"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C101" pin="2"/>
+      <node ref="C107" pin="1"/>
+      <node ref="C106" pin="1"/>
+      <node ref="C105" pin="1"/>
+      <node ref="J101" pin="2"/>
+      <node ref="U102" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="C109" pin="2"/>
+      <node ref="U101" pin="5"/>
+      <node ref="U101" pin="3"/>
+      <node ref="U101" pin="21"/>
+      <node ref="U101" pin="10"/>
+    </net>
+    <net code="13" name="/R_INTERP_1">
+      <node ref="R115" pin="1"/>
+      <node ref="R116" pin="1"/>
+      <node ref="SW107" pin="2"/>
+    </net>
+    <net code="14" name="/R_INTERP_2">
+      <node ref="SW107" pin="4"/>
+      <node ref="R117" pin="1"/>
+      <node ref="R118" pin="1"/>
+    </net>
+    <net code="15" name="/R_INTERP_3">
+      <node ref="SW107" pin="6"/>
+      <node ref="R120" pin="1"/>
+      <node ref="R119" pin="1"/>
+    </net>
+    <net code="16" name="/R_INTERP_4">
+      <node ref="SW107" pin="8"/>
+      <node ref="R122" pin="1"/>
+      <node ref="R121" pin="1"/>
+    </net>
+    <net code="17" name="/X7">
+      <node ref="SW106" pin="1"/>
+      <node ref="SW104" pin="1"/>
+      <node ref="SW102" pin="1"/>
+      <node ref="R104" pin="1"/>
+    </net>
+    <net code="18" name="/X6">
+      <node ref="SW101" pin="7"/>
+      <node ref="R105" pin="1"/>
+      <node ref="SW107" pin="7"/>
+      <node ref="R121" pin="2"/>
+      <node ref="R120" pin="2"/>
+      <node ref="SW103" pin="7"/>
+    </net>
+    <net code="19" name="/X5">
+      <node ref="R119" pin="2"/>
+      <node ref="R118" pin="2"/>
+      <node ref="SW103" pin="6"/>
+      <node ref="SW107" pin="5"/>
+      <node ref="SW101" pin="6"/>
+      <node ref="R106" pin="1"/>
+    </net>
+    <net code="20" name="/X4">
+      <node ref="SW101" pin="5"/>
+      <node ref="SW107" pin="3"/>
+      <node ref="SW103" pin="5"/>
+      <node ref="R117" pin="2"/>
+      <node ref="R116" pin="2"/>
+      <node ref="R107" pin="1"/>
+    </net>
+    <net code="21" name="/X3">
+      <node ref="R122" pin="2"/>
+      <node ref="R115" pin="2"/>
+      <node ref="SW103" pin="4"/>
+      <node ref="SW101" pin="4"/>
+      <node ref="R108" pin="1"/>
+      <node ref="SW107" pin="1"/>
+    </net>
+    <net code="22" name="/X2">
+      <node ref="R109" pin="1"/>
+      <node ref="SW103" pin="3"/>
+      <node ref="SW105" pin="3"/>
+      <node ref="SW101" pin="3"/>
+    </net>
+    <net code="23" name="/X1">
+      <node ref="SW101" pin="2"/>
+      <node ref="SW103" pin="2"/>
+      <node ref="SW105" pin="2"/>
+      <node ref="R110" pin="1"/>
+    </net>
+    <net code="24" name="/X0">
+      <node ref="SW103" pin="1"/>
+      <node ref="SW101" pin="1"/>
+      <node ref="SW105" pin="1"/>
+      <node ref="R111" pin="1"/>
+    </net>
+    <net code="25" name="/Rx0">
+      <node ref="U101" pin="30"/>
+      <node ref="R111" pin="2"/>
+      <node ref="R101" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="26" name="/Y0">
+      <node ref="SW101" pin="8"/>
+      <node ref="SW102" pin="2"/>
+      <node ref="R112" pin="1"/>
+    </net>
+    <net code="27" name="/Y1">
+      <node ref="SW103" pin="8"/>
+      <node ref="R113" pin="1"/>
+      <node ref="SW104" pin="2"/>
+    </net>
+    <net code="28" name="/Y2">
+      <node ref="SW106" pin="2"/>
+      <node ref="R114" pin="1"/>
+      <node ref="SW105" pin="4"/>
+      <node ref="SW107" pin="9"/>
+    </net>
+    <net code="29" name="/Rx7">
+      <node ref="U101" pin="9"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="30" name="/Rx6">
+      <node ref="U101" pin="8"/>
+      <node ref="R105" pin="2"/>
+    </net>
+    <net code="31" name="/Rx5">
+      <node ref="U101" pin="7"/>
+      <node ref="R106" pin="2"/>
+    </net>
+    <net code="32" name="/Rx4">
+      <node ref="U101" pin="2"/>
+      <node ref="R107" pin="2"/>
+    </net>
+    <net code="33" name="/Rx3">
+      <node ref="U101" pin="1"/>
+      <node ref="R108" pin="2"/>
+    </net>
+    <net code="34" name="/Rx2">
+      <node ref="R109" pin="2"/>
+      <node ref="U101" pin="32"/>
+    </net>
+    <net code="35" name="/Rx1">
+      <node ref="U101" pin="31"/>
+      <node ref="R110" pin="2"/>
+    </net>
+    <net code="36" name="/Ry0">
+      <node ref="R112" pin="2"/>
+      <node ref="C102" pin="1"/>
+      <node ref="U101" pin="26"/>
+    </net>
+    <net code="37" name="/Ry1">
+      <node ref="R113" pin="2"/>
+      <node ref="C103" pin="1"/>
+      <node ref="U101" pin="27"/>
+    </net>
+    <net code="38" name="/Ry2">
+      <node ref="R114" pin="2"/>
+      <node ref="C104" pin="1"/>
+      <node ref="U101" pin="28"/>
+    </net>
+    <net code="39" name="/Cs0">
+      <node ref="C102" pin="2"/>
+      <node ref="U101" pin="23"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="40" name="/Cs1">
+      <node ref="C103" pin="2"/>
+      <node ref="U101" pin="24"/>
+      <node ref="R102" pin="2"/>
+    </net>
+    <net code="41" name="/Cs2">
+      <node ref="R103" pin="2"/>
+      <node ref="U101" pin="25"/>
+      <node ref="C104" pin="2"/>
+    </net>
+    <net code="42" name="VCC">
+      <node ref="U102" pin="3"/>
+      <node ref="J101" pin="1"/>
+      <node ref="C108" pin="1"/>
+    </net>
+  </nets>
+</export>
